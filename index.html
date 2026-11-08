@@ -429,7 +429,7 @@ textarea.m-field__input { resize: vertical; min-height: 3.6em; }
 @layer scenes {
 @media (prefers-reduced-motion: no-preference) {
   #origins[data-staged] .or-track { height: 240vh; }
-  #origins[data-staged] .or-stage { position: sticky; top: 0; height: 100vh; height: 100svh; display: grid; align-content: end; padding-bottom: 14px; overflow: clip; }
+  #origins[data-staged] .or-stage { position: sticky; top: 0; height: 100vh; height: 100svh; display: grid; align-content: end; padding-bottom: clamp(48px, 6vh, 72px); overflow: clip; }
 }
 }
 </style>
